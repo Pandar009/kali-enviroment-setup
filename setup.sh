@@ -11,3 +11,5 @@ echo "deb http://http.kali.org/kali kali-last-snapshot main non-free contrib" | 
 echo 'Sourse list adding done!'
 apt update -y & jobs
 apt install dnsutils & jobs
+apt install rockyou -y & jobs
+apt install pip -y & jobs
